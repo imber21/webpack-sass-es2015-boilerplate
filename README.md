@@ -25,6 +25,7 @@ npm run build-dev
 Running either will generate files into a folder called `dist`.
 
 **Dev Server**
+
 Runs a [local server](https://webpack.js.org/configuration/dev-server) on port 8080.
 ```ssh
 npm run dev
@@ -32,12 +33,14 @@ npm run dev -- --open
 ```
 
 **Watch**
+
 Watches for file changes and builds files in development mode.
 ```ssh
 npm run watch
 ```
 
 **noramalize.css**
+
 Normalize isn't used by default. Import in the styles.scss file using `@import '~normalize.css';` or uninstall if not needed: `npm uninstall -S normalize.css`.
 
 # TODO

@@ -8,7 +8,9 @@ Notable packages include:
 
 # Usage
 
-**Install using:**
+Clone or download the repo [link](https://github.com/imber21/webpack-sass-es2015-boilerplate/archive/master.zip).
+
+**Install Dependencies:**
 ```ssh
 npm install
 ```

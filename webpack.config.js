@@ -41,11 +41,11 @@ module.exports = {
         rules: [
 			{
 				test: /\.(jpe?g|png|gif|svg)$/i, 
-				loader: 'file-loader?name=./assets/images/[name].[ext]'
+				loader: 'file-loader?name=./images/[name].[ext]'
 			},
 			{ 
 				test: /\.(ttf|otf|eot|svg|woff(2)?)(\?[a-z0-9]+)?$/, 
-				loader: 'file-loader?name=./assets/fonts/[name].[ext]' 
+				loader: 'file-loader?name=./fonts/[name].[ext]' 
 			},
 			{
 				test: /\.js$/,
